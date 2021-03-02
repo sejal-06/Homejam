@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+nav{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav>img{
+    height: 50px;
+    width: 100px;    
+}
+
+ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    /* font-weight: 500; */
+    list-style-type: none;
+}
+
+nav>ul{
+    display: flex;
+    
+}
+ul>li{
+    text-decoration: none;    
+    font-family: 'Open Sans', sans-serif;
+}
+ul>li>a{
+    color: white;
+   
+    text-decoration: none;
+}
+
+@media screen and (max-width:960px){
+    ul{
+        width: 10%;
+    }
+    .help_text,.account_text,.search_text{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+.body{
+    width: 80%;
+    margin-top:60vh !important;
+    margin: auto;
+    padding: 0;
+    position: relative;
+}
+
+.head1, .head2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    
+}
+.left{
+    font-family: Libre Baskerville;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+
+}
+
+.head1>.right{
+    text-decoration: none;
+    color: rgba(229, 197, 88, 1);
+    font: Nunito;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.cards_container,.comments_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.head2>.right{
+    color: white;
+    font-size: 14px;
+}
+
+.head2 img{
+    width:15px;
+    
+}
